@@ -27,7 +27,7 @@ namespace Web.Api.Core.Context
             if (!optionsBuilder.IsConfigured)
             {
                 //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Server=sharepoint03;Database=SportTest;Trusted_Connection=False;User=sa;password=Mahant@2984");
+                optionsBuilder.UseSqlServer("Server=your server Name;Database=SportTest;Trusted_Connection=False;User=userName;password=password");
             }
         }
 
